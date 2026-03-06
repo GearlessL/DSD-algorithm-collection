@@ -2,12 +2,11 @@
 
 This document provides a comprehensive classification of existing densest subgraph (DSD) algorithms along with their key characteristics and implementation sources.
 
-## Table 1: Classification of Existing DSD Works
+## Table 1: Classification of Original Existing DSD Works
 
 | Graph Type | Algorithm | Key Technique | Complexity | Approx. Ratio | # Iteration | Optimization Time Complexity |
 |:-----------|:----------|:--------------|:-----------|:--------------|:-------------|:-----------------------------|
-| **Undirected graphs** | | | | | | |
-| | FlowExact [40] | Network flow | O (log𝑛 · 𝑡Flow) | O (𝑚) | 1 | N/A |
+| **Undirected graphs** | FlowExact [40] | Network flow | O (log𝑛 · 𝑡Flow) | O (𝑚) | 1 | N/A |
 | | CoreExact [33] | Network flow | O (log𝑛 · 𝑡Flow) | O (𝑚) | 1 | N/A |
 | | FWExact [25] | Convex Programming | O (𝑇 · 𝑚 + log𝑇 · 𝑡Flow) | O (𝑚) | 1 | Ω(𝑇) |
 | | MWUExact [42] | Convex Programming | O (𝑇 · 𝑚 + log𝑇 · 𝑡Flow) | O (𝑚) | 1 | Ω(𝑇) |
@@ -19,8 +18,7 @@ This document provides a comprehensive classification of existing densest subgra
 | | MWUApp [42] | Convex Programming | O (𝑇 · 𝑚) | (1 + 𝜖) | Ω(𝑥) | Ω(𝑥) |
 | | FISTAApp [42] | Convex Programming | O (𝑇 · 𝑚) | (1 + 𝜖) | Ω(√𝑚𝑛Δ(𝐺)𝜖2) | Ω(√𝑚𝑛Δ(𝐺)𝜖2) |
 | | FlowApp*[86] | Network flow | O (𝑇 · 𝑚 log𝑚) | (1 + 𝜖) | Ω(log𝑚𝜖) | Ω(log𝑚𝜖) |
-| **Directed graphs** | | | | | | |
-| | DFlowExact [52] | Network flow | O (𝑛² · 𝑡Flow) | O (𝑚) | 1 | N/A |
+| **Directed graphs** | DFlowExact [52] | Network flow | O (𝑛² · 𝑡Flow) | O (𝑚) | 1 | N/A |
 | | DCExact [66] | Network flow | O (𝑘 · 𝑡Flow) | O (𝑚) | 1 | N/A |
 | | DFWExact [67] | Convex Programming | O (𝑇 · 𝑡Fw) | O (𝑚) | 1 | Ω(𝑇) |
 | | DGreedy [17] | Peeling | O (𝑛² · (𝑛 + 𝑚)) | O (𝑚) | 2 | N/A |
