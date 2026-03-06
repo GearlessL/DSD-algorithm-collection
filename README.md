@@ -2,7 +2,7 @@
 
 This document provides a comprehensive classification of existing densest subgraph (DSD) algorithms along with their key characteristics and implementation sources.
 
-## Table 1: Classification of Original Existing DSD Works
+## I: Original DSD Works
 
 | Graph Type | Algorithm | Key Technique | Complexity | Approx. Ratio | # Iteration | Optimization Time Complexity |
 |:-----------|:----------|:--------------|:-----------|:--------------|:-------------|:-----------------------------|
@@ -39,15 +39,32 @@ The implementations for these densest subgraph algorithms can be found at:
 
 ## references
 [1] Andrew V Goldberg. 1984. Finding a maximum density subgraph. University of California Berkeley
+
 [2] Yixiang Fang, Kaiqiang Yu, Reynold Cheng, Laks VS Lakshmanan, and Xuemin Lin. 2019. Efficient algorithms for densest subgraph discovery. PVLDB 12, 11(2019), 1719–1732.
+
 [3] Maximilien Danisch, T-H Hubert Chan, and Mauro Sozio. 2017. Large scale density-friendly graph decomposition via convex programming. In WWW. 233–242.
+
 [4] Elfarouk Harb, Kent Quanrud, and Chandra Chekuri. 2022. Faster and Scalable Algorithms for Densest Subgraph and Decomposition. In NIPS.
+
 [5] Moses Charikar. 2000. Greedy approximation algorithms for finding dense components in a graph. In APPROX. Springer, 84–95.
+
 [6] Digvijay Boob, Yu Gao, Richard Peng, Saurabh Sawlani, Charalampos Tsourakakis, Di Wang, and Junxing Wang. 2020. Flowless: Extracting densest subgraphs without flow computations. In WWW
+
 [7] Yichen Xu, Chenhao Ma, Yixiang Fang, and Zhifeng Bao. 2023. Efficient and Effective Algorithms for Generalized Densest Subgraph Discovery. Proceedings of the ACM on Management of Data 1, 2 (2023), 1–27.
+
 [8] Samir Khuller and Barna Saha. 2009. On finding dense subgraphs. In ICALP. Springer, 597–608.
+
 [9] Chenhao Ma, Yixiang Fang, Reynold Cheng, Laks VS Lakshmanan, Wenjie Zhang, and Xuemin Lin. 2020. Efficient algorithms for densest subgraph discovery on large directed graphs. In SIGMOD. 1051–1066.
+
 [10] Chenhao Ma, Yixiang Fang, Reynold Cheng, Laks VS Lakshmanan, Wenjie Zhang, and Xuemin Lin. 2021. Efficient Directed Densest Subgraph Discovery. ACM SIGMOD Record 50, 1 (2021), 33–40.
+
 [11] Moses Charikar. 2000. Greedy approximation algorithms for finding dense components in a graph. In APPROX. Springer, 84–95.
+
 [12] Wensheng Luo, Zhuo Tang, Yixiang Fang, Chenhao Ma, and Xu Zhou. 2023. Scalable Algorithms for Densest Subgraph Discovery. In ICDE. IEEE.
+
+## II: k-clique DSD Works
+
+[13] KClist++: A Simple Algorithm for Finding k-Clique Densest Subgraphs in Large Graphs" (Bintao Sun, Maximilien Danisch, T-H. Hubert Chan, Mauro Sozio; PVLDB 2020
+
+**Source code:** [https://github.com/btsun/kclistpp](https://github.com/btsun/kclistpp)
 
